@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "hoonhead-12f08",
+    "public": "src",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
