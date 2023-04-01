@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>백승훈 머리관리</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="src/css/index.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="container_box">
+          <header class="header">
+            <a href="#">
+              <h1>😒백승훈 머리관리</h1>
+            </a>
+            <nav>
+              <button class="button_brain">🧠뇌</button>
+              <button class="button_talk">🐎생각을 하고 말하나요?</button>
+              <button class="button_ grandfather">👨‍🦳내 꼰대력은?</button>
+              <button class="button_year">🐑혹시 91년생?</button>
+              <button class="button_investor">💻주식</button>
+            </nav>
+          </header>
+          <main class="main">
+            <div class="wrapper">
+              <div class="wrapper_box">
+                <h2>❤️ 승훈이 관리사 다빈</h2>
+                <span class="count">총 0개</span>
+              </div>
+              <form class="form">
+                <div class="form_box">
+                  <input
+                    type="text"
+                    class="hoon-name"
+                    placeholder="승훈이 머머리 관리"
+                  />
+                  <button type="button" name="check" class="check">확인</button>
+                </div>
+              </form>
+              <ul class="hoon_list"></ul>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+    <script src="src/js/index.js"></script>
+  </body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDgfbIp5Kxqtadt_LndjuXg96nw4DwdyKY",
+      authDomain: "hoonhead-12f08.firebaseapp.com",
+      projectId: "hoonhead-12f08",
+      storageBucket: "hoonhead-12f08.appspot.com",
+      messagingSenderId: "343688744351",
+      appId: "1:343688744351:web:516f970500331817b181aa",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+</html>
